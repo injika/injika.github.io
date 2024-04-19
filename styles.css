@@ -6,6 +6,13 @@ body {
   overflow-x: hidden;
 overflow-y: scroll;
 }
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+  }
+}
+
 
 .header {
   display: flex;

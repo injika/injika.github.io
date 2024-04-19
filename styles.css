@@ -220,6 +220,7 @@ input[type=submit] {
   cursor: pointer;
 align-items: center;
 margin-left: 25%;
+  width: auto;
 }
 input[type=submit]:hover{
   background-color: white ;

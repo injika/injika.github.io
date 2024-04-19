@@ -191,6 +191,8 @@ font-size: larger;
   border-radius: 50%;
   align-items: center;
   margin-top: 5%;
+   overflow-x: hidden;
+
 }
 
 span {

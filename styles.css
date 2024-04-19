@@ -229,6 +229,13 @@ input[type=submit]:hover{
 
 }
 
+@media (max-width: 600px) {
+  input[type=submit] {
+    width: 80%;
+  }
+}
+
+
 
 /* Style the container */
 .container {

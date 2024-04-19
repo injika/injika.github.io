@@ -327,6 +327,8 @@ footer p {
   .skills {
     width: 90%;
     margin-bottom: 100px;
+    overflow-x: hidden;
+
   }
 }
 .skills li {

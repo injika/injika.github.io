@@ -702,4 +702,23 @@ footer p {
   transition: transform 0.8s linear;
   animation: movePhoto 5s infinite alternate;
 }
+.socialicons {
+  display: flex;
+  justify-content: center;
+}
 
+.socialicons a {
+  margin: 0 20px;
+  padding-right: 31px;
+
+    font-size: 24px;
+}
+
+.socialicons i {
+  color:  #cb5d5d;
+ justify-content: space-between;
+  font-size: 24px;
+}
+.socialicons :hover {
+  color: #E2E9FE;
+}

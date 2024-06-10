@@ -702,6 +702,67 @@ footer p {
   transition: transform 0.8s linear;
   animation: movePhoto 5s infinite alternate;
 }
+
+
+.skills {
+  justify-content:space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px auto;
+  padding: 0 0;
+}
+
+@media (min-width: 780px) {
+  .skills {
+    width: 90%;
+    margin-bottom: 100px;
+    overflow-x: hidden;
+
+  }
+}
+.skills li {
+  font-family: sans-serif;
+  font-size: small;
+  list-style: none;
+  width: 80px;
+  text-align: center;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3 rem;
+}
+@media (min-width: 780px) {
+  .skills li {
+    margin: 0 20px;
+    width: 100px;
+  }
+}
+.skills li img {
+  width: 50px;
+  margin-bottom: -2px;
+}
+@media (min-width: 780px) {
+  .skills li img {
+    width: 50px;
+  }
+}
+
 .socialicons {
   display: flex;
   justify-content: center;
@@ -720,5 +781,18 @@ footer p {
   font-size: 24px;
 }
 .socialicons :hover {
-  color: #E2E9FE;
+  color: #fe8989;
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* Adjust the layout of social icons for smaller screens */
+  .social-icons {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .social-icons a {
+      margin: 5px 0; /* Adjust margin for smaller screens */
+  }
 }

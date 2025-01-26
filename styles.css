@@ -192,7 +192,7 @@ span {
 }
 
 /* Style inputs, select elements and textareas */
-input[type=text], select, textarea{
+input[type=text], input[type="email"], select, textarea{
   width: 70%;
   padding: 10px;
   margin: 10px 0;

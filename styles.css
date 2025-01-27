@@ -220,6 +220,7 @@ input[type=submit] {
   cursor: pointer;
 align-items: center;
   margin-left: 25%;
+  width: auto;
 
 }
 input[type=submit]:hover{
@@ -238,6 +239,8 @@ input[type=submit]:hover{
   padding-bottom: 200px;
   padding-top: 100px;
   width: 100%;
+  overflow-x: hidden;
+
 }
 
 /* Floating column for labels: 25% width */
@@ -261,22 +264,15 @@ input[type=submit]:hover{
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
-  .col-25, .col-75 {
+  .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
     margin-left: 50px;
   }
-  
-  
-  input[type=submit] {
-    
-     width: auto;
-    margin: 10px auto; 
-    display: block;
-  }
 }
+
 .h2{
  color:  #cb5d5d;
  text-align: center;

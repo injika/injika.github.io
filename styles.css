@@ -210,7 +210,7 @@ label {
 }
 
 /* Style the submit button */
-input[type="submit"] {
+input[type=submit] {
   background-color: #cb5d5d;
   color: white;
   padding: 12px 10px;
@@ -220,10 +220,9 @@ input[type="submit"] {
   cursor: pointer;
 align-items: center;
   margin-left: 25%;
-  width: auto;
 
 }
-input[type="submit"]:hover{
+input[type=submit]:hover{
   background-color: white ;
   color: #cb5d5d;
   border: 1px solid #f0bbbb;
@@ -266,8 +265,13 @@ input[type="submit"]:hover{
 
 
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type="submit"] {
+  .col-25, .col-75 {
     width: 100%;
+    margin-top: 0;
+    margin-left: 50px;
+  }
+  input[type=submit] {
+    width: 60%;
     margin-top: 0;
     margin-left: 50px;
   }

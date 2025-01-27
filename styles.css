@@ -219,7 +219,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 align-items: center;
-margin-left: 25%;
+  margin: 0 auto; 
 }
 input[type=submit]:hover{
   background-color: white ;
